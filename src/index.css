@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5em 0.5em;
+  border: 1px solid rgba(13, 13, 13, 0.2);
+  background-color: #1a1a1a;
+  color: #b54848;
+  font-size: 1em;
+  margin-bottom: 10px;
+  appearance: none; 
+  transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
+}
+
+/* Состояние фокуса */
+input:focus {
+  border-color: #660000;
+  box-shadow: 0 0 5px #660000;
+  outline: none;
+}
+
+input:hover {
+  border-color: #b54848; 
+}
+
+
+/* Отключённое состояние */
+input:disabled {
+  background-color: #e9ecef; 
+  color: #b0b0b0; 
+  border-color: rgba(13, 13, 13, 0.1); 
+}

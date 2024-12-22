@@ -1,0 +1,30 @@
+.rangeselect {
+    display: flex;
+    gap: 8px;
+}
+
+.rangeselect input {
+    max-width: 100px;
+    border: 2px solid rgb(99, 15, 15);
+    color: black;
+    background: none;
+    outline: none;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.multi-select {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .multi-select label {
+    cursor: pointer;
+    margin-bottom: 0.5em;
+  }
+  
+  .multi-select input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  

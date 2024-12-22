@@ -1,0 +1,20 @@
+.selectors-container {
+    display: flex;
+    gap: 15px;
+    margin: 8px 0;
+}
+
+.selector {
+    border: 2px solid black;
+    padding: 10px 8px;
+    font-size: 20px;
+    background: rgb(241, 241, 241);
+
+}
+
+.selector.active {
+    border-color: rgb(99, 15, 15);
+    background: rgb(235, 235, 235);
+    border-color: #660000;
+    box-shadow: 0 0 5px #660000;
+}

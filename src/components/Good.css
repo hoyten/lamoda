@@ -1,0 +1,19 @@
+.card {
+    border: 2px solid rgb(99, 15, 15);
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card_content {
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+.card_content:focus {
+    border-color: #660000;
+    box-shadow: 0 0 5px #660000;
+    outline: none; 
+}
